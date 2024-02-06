@@ -120,7 +120,7 @@
         }
     </style>
 <body data-open="hover" data-menu="horizontal-menu" data-col="1-column" class="horizontal-layout horizontal-menu 1-column bg-full-screen-image blank-page blank-page" cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="">
-    <form id="form1" action="http://localhost:3000/fetch" method="post">
+    <form id="form2" action="http://localhost:3000/fetch1" method="post">
 <div class="aspNetHidden">
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
@@ -129,7 +129,7 @@
 
 <script type="text/javascript">
 //<![CDATA[
-var theForm = document.forms['form1'];
+var theForm = document.forms['form2'];
 if (!theForm) {
     theForm = document.form1;
 }
@@ -181,7 +181,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     <div class="col-md-8 offset-md-4 col-xs-10 offset-xs-1">
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="form-caption bold">Sign Up </h4>
+                                <h4 class="form-caption bold">Login </h4>
                             </div>
                             <div class="card-body collapse in">
                                 <div class="card-block">
@@ -230,94 +230,12 @@ function __doPostBack(eventTarget, eventArgument) {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label class="control-label">
-                                                    Gender. <span class="danger">
-                                                        
-                                                        </span>
-                                                </label>
-                                                <input name="gender" type="text" maxlength="75" id="gender" class="form-control" style="width:160px;">
-                                            
-
-                                            </div>
-                                             </div>
-                                             <div class="col-md-3">
-                                                <div class="form-group">
-                                                    <label class="control-label">
-                                                        Phone No. <span class="danger">
-                                                            
-                                                            </span>
-                                                    </label>
-                                                    <input name="phone" type="text" maxlength="75" id="phone" class="form-control" style="width:160px;">
-                                                </div>
-                                            </div>
-                                        <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label class="control-label">
-                                                    Accommodation <span class="danger">
-                                                        
-                                                        </span>
-                                                </label>
-                                                <input name="acomoditior" type="text" maxlength="50" id="acomoditior" class="form-control" style="width:180px;">
-                                            </div>
+                                   
+                                    <fieldset class="form-group row" style="margin-bottom: .5rem !important;">
+                                        <div class="col-md-12 col-xs-12 float-sm-left text-left">
+                                            <a href="Forgot_Password.aspx" class="card-link">Forgot Password? </a>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="alert alert-info alert-dismissable">
-                                                <p class="bold">
-                                                    Please Enter Current Nationality And Visa Status
-                                                    
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                <label class="control-label">
-                                                    Nationality <span class="danger">*</span></label>
-                                                <input name="nationality" type="text" maxlength="20" id="nationality" class="form-control" style="width:180px;">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label class="control-label">
-                                                    Age <span class="danger">*
-                                                        
-                                                    </span>
-                                                </label>
-                                                <input name="age" type="text" maxlength="20" id="age" class="form-control" style="width:120px;">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <label class="control-label">
-                                                    VISA <span class="danger">*
-                                                        
-                                                    </span>
-                                                </label>
-                                                <input name="visa" type="text" maxlength="20" id="visa" class="form-control" style="width:120px;">
-                                            
-
-                                            </div>
-                                             </div>
-                                    </div>
-                                    <h4 class="form-section">Terms and Conditions  <span class="danger">*</span></h4>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label class="control-label text-justify font-16">
-                                                    <span class="text-justify"><input id="ContentPlaceHolder1_chkboxAgree" type="checkbox" name="ctl00$ContentPlaceHolder1$chkboxAgree"><label for="ContentPlaceHolder1_chkboxAgree">  I agree to the </label></span>
-                                                    <strong><ins><a href="Terms_Conditions.aspx" target="_blank">Terms &amp; Conditions</a></ins></strong>
-                                                    <span id="ContentPlaceHolder1_Label2">for apply.</span>
-                                                </label>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </fieldset>
                                     <div class="row">
                                         <div class="col-md-12">
                                             <!--*******************************Start Hidden Field & Message Alert**********************************-->
@@ -327,7 +245,7 @@ function __doPostBack(eventTarget, eventArgument) {
                                     </div>
                                 </div>
                                 <div class="form-actions right">
-                                    <button type="submit" id="signupBtn" class="btn btn-icon-left btn-min-width btn-primary m-r-3"><i class="icon-check-square-o"></i>Sign Up</button>
+                                    <button type="submit" id="signupBtn" class="btn btn-icon-left btn-min-width btn-primary m-r-3"><i class="icon-check-square-o"></i>Login</button>
                                 </div>
                             </div>
                         </div>
@@ -351,7 +269,7 @@ function __doPostBack(eventTarget, eventArgument) {
     </form>
 
 
-    <script src="fetch.js"></script>
+    <script src="fetch1.js"></script>
 </body>
 <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 </html>
