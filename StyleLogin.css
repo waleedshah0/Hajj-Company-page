@@ -1,0 +1,541 @@
+html body.bg-full-screen-image {
+    /* background-color: #FFFFFF !important;*/
+     background-image: url(../Images/bg-watermark-outer.jpg);
+    /* background-position: 58rem 27rem;*/
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
+   /*  background-size: 40%;*/
+ }
+ 
+ 
+ .header-navbar {
+     min-height: 7.5rem;
+     background-color: #FFFFFF !important;
+     background-image: url(../Images/bg-hearder-outer.png);
+     background-position: 50rem 0rem;
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: 33%;
+     border-bottom: 4px solid #3E2E26;
+ }
+ 
+     .header-navbar .navbar-header {
+         width: 100%;
+         height: auto;
+         padding: 0.25rem 0rem 0 1.5rem;
+     }
+ 
+ .navbar-header .row > div:first-child img {
+     height: 90px;
+ }
+ 
+ .navbar-header .row > div:last-child img {
+     height: 90px;
+     position: relative;
+     top: 15px;
+ }
+ 
+ footer {
+     bottom: 0px;
+     width: 100%;
+ }
+ 
+     footer .footer-inner {
+         color: #3E2E26 !important;
+         padding-top: 25px !important;
+     }
+ 
+     footer .container {
+         width: 100%;
+         max-width: 100%;
+         position: relative;
+         padding-right: 15px;
+         padding-left: 15px;
+         margin-right: auto;
+         margin-left: auto;
+     }
+ 
+     footer a {
+         color: #3E2E26;
+     }
+ 
+         footer a:hover {
+             color: #3E2E26;
+         }
+ 
+ .logo-footer {
+     margin: 0px auto;
+     position: fixed;
+     bottom: 10px;
+     right: 0;
+ }
+ #VISA 
+        {
+  
+            font-family: sans-serif;
+            font-size: 16px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+
+        }
+ 
+     .logo-footer img {
+         width: 350px;
+     }
+ 
+ .logo-top-gop {
+     display: none;
+     margin: 0 auto;
+     padding: 1rem;
+ }
+ 
+ .logo-bottom-gop {
+     margin: 0 auto;
+     padding: 1rem;
+ }
+ 
+ .card {
+     border-radius: 12px;
+     margin-bottom: 0px !important;
+     border: 3px solid #3E2E26;
+     background-color: transparent !important;
+ }
+ 
+     .card .card-body {
+         padding: 0.5rem;
+     }
+ 
+     .card .card-header {
+         background-color: transparent !important;
+         margin: -15px 0px 0px -36px !important;
+         border-bottom: none !important;
+     }
+ 
+ .form-caption {
+     background-color: #3E2E26;
+     display: inline-block;
+     padding: 10px 25px;
+     border: 0;
+     color: #fff;
+     position: relative;
+     border-top-left-radius: 5px;
+ }
+ 
+     .form-caption:first-child {
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+ 
+     .form-caption::after {
+         content: "";
+         position: absolute;
+         right: -48px;
+         top: 0px;
+         border-top: 54px solid #3E2E26;
+         border-right: 48px solid transparent;
+         clip-path: polygon(0 0, 0% 80%, 40% 0);
+     }
+ 
+ .mt-10 {
+     margin-top: 10px;
+ }
+ 
+ .mt-50 {
+     margin-top: 60px;
+ }
+ 
+ form label {
+     color: #000000;
+ }
+ 
+ label {
+     color: #000000 !important;
+ }
+ 
+ .aspNetDisabled {
+     cursor: not-allowed !important;
+     color: #ffffff !important;
+ }
+ 
+ .form-control {
+     border: 1px solid #AAAAAA !important;
+     color: #000000 !important;
+     text-transform: uppercase !important;
+ }
+ 
+ 
+ form-control::placeholder {
+     color: #000000 !important;
+     opacity: 1;
+ }
+ 
+ .form-control:focus, .form-control:hover {
+     border-color: #66AFE9;
+ }
+ 
+ .riSingle {
+     width: 100% !important;
+ }
+ 
+     .riSingle .riTextBox {
+         padding: 1rem 1rem 1.2rem 1rem !important;
+     }
+ 
+ .lbtn {
+     white-space: nowrap;
+     display: inline-block;
+     line-height: 1.25;
+     text-align: center;
+     vertical-align: middle;
+     cursor: pointer;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     padding: .5rem 1rem;
+     font-size: 1rem;
+     font-weight: 400;
+     border-radius: .18rem;
+     -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+     -o-transition: all .2s ease-in-out;
+     transition: all .2s ease-in-out;
+ }
+ 
+ .btn {
+     color: #ffffff;
+     font-weight: 500;
+     background-color: #027eaf;
+     white-space: nowrap;
+     border-radius: 0;
+     font-size: 14px;
+     position: relative;
+     background-image: none !important;
+     display: inline-block;
+     line-height: 1.25;
+     text-align: center;
+     vertical-align: middle;
+     cursor: pointer;
+     user-select: none;
+     transition: all .2s ease-in-out;
+ }
+ 
+     .btn.focus, .btn:focus, .btn:hover {
+         background-image: none !important;
+         color: #ffffff;
+     }
+ 
+ .btn-min-width {
+     min-width: 7.5rem;
+ }
+ 
+ .btn.btn-icon-left {
+     padding: 0.6rem 0.35rem 0.6rem 2.5rem;
+ }
+ 
+ .btn-icon-left > i {
+     position: absolute;
+     left: 0;
+     top: 3px;
+     bottom: 0;
+     width: 2.0rem;
+     line-height: 2.2rem;
+     font-size: 1.3em;
+     text-align: center;
+     border-right: 1px solid rgba(0,0,0,.2);
+ }
+ 
+ .btn.btn-icon-right {
+     padding: 0.6rem 2rem .6rem 0.25rem;
+ }
+ 
+     .btn.btn-icon-right > i {
+         position: absolute;
+         right: 0;
+         top: 3px;
+         bottom: 0;
+         width: 2.45rem;
+         line-height: 2.2rem;
+         font-size: 1.3em;
+         text-align: center;
+         border-left: 1px solid rgba(0,0,0,.2);
+     }
+ 
+ 
+ .btn-primary {
+     color: #FFFFFF !important;
+     border: 1px solid #3E2E26 !important;
+     background-color: #3E2E26 !important;
+ }
+ 
+     .btn-primary:active, .btn-primary:focus, .btn-primary:active:focus, .btn-primary:active:hover {
+         border: 1px solid #3E2E26 !important;
+         background-color: #3E2E26 !important;
+     }
+ 
+ .btn-secondary {
+     color: #FFFFFF !important;
+     border: 1px solid #786D67 !important;
+     background-color: #786D67 !important;
+ }
+ 
+     .btn-secondary:active, .btn-secondary:focus, .btn-secondary:active:focus, .btn-primary:active:hover {
+         color: #FFFFFF !important;
+         border: 1px solid #786D67 !important;
+         background-color: #786D67 !important;
+     }
+ 
+ .alert-danger, .alert-primary, .alert-success, .alert-warning {
+     color: #000000 !important;
+ }
+ 
+ .text-right {
+     text-align: right !important;
+ }
+ 
+ img {}
+ 
+ .text-center {
+     text-align: center !important;
+ }
+ 
+ .m-t-25 {
+     margin-top: 25px;
+ }
+ 
+ .m-r-5 {
+     margin-right: 5px !important;
+ }
+ 
+ .help-block {
+     display: block;
+     margin-top: 5px;
+     margin-bottom: 10px;
+     color: #000000;
+ }
+ 
+ [type="checkbox"], [type="radio"] {
+     margin-right: 6px !important;
+ }
+ 
+ .sweet-alert button {
+     background: #0069BF !important;
+     color: white !important;
+ }
+ 
+ .sweet-alert h2 {
+     margin: 0px !important;
+ }
+ 
+ 
+ @font-face {
+     font-family: 'NotoNastaliqUrdu';
+     src: url('../fonts/NotoNastaliqUrdu.eot') format('embedded-opentype');
+ }
+ 
+ @font-face {
+     font-family: 'NotoNastaliqUrdu';
+     src: url('../fonts/NotoNastaliqUrdu.ttf') format('truetype');
+ }
+ 
+ @font-face {
+     font-family: 'NotoNastaliqUrdu';
+     src: url('../fonts/NotoNastaliqUrdu.woff') format('woff');
+ }
+ 
+ .urdu_Title_Font_White {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.5rem !important;
+     letter-spacing: 0rem !important;
+     color: #fff !important;
+ }
+ 
+ .urdu_Font {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.1rem !important;
+     letter-spacing: 0rem !important;
+ }
+ 
+ .urdu_Font_White {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.1rem !important;
+     letter-spacing: 0rem !important;
+     color: #fff !important;
+ }
+ 
+ .urdu_Font_Size {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.25rem !important;
+     letter-spacing: 0rem !important;
+ }
+ 
+ .urdu_Title_Font {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.5rem !important;
+     letter-spacing: 0rem !important;
+ }
+ 
+ .urdu_Sub_Title_Font {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.5rem !important;
+     letter-spacing: 0rem !important;
+ }
+ 
+ .urdu_Title_Font_1 {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 1.4rem !important;
+     letter-spacing: 0rem !important;
+ }
+ 
+ .urdu_Sub_Title_Font_1 {
+     margin: 0;
+     font-family: "Jameel Noori Nastaleeq";
+     font-family: 'NotoNastaliqUrdu' !important;
+     font-weight: normal;
+     font-size: 18px !important;
+     letter-spacing: 0rem !important;
+ }
+ 
+ .float-right {
+     float: right;
+ }
+ 
+ .logos {
+     display: flex;
+     list-style: none;
+     justify-content: flex-start;
+     align-items: flex-start;
+     padding: 15px 6px 0px 6px;
+ }
+ 
+     .logos > li:first-child img {
+         width: 312px;
+     }
+ 
+     .logos > li:last-child {
+         margin: 5px 0 0 5px;
+     }
+ 
+ @media screen and (max-width:767px) {
+     /*.nav .nav-item .nav-link img {
+         width: 100%;
+         display: block;
+         height: auto;
+     }*/
+ }
+ 
+ @media only screen and (max-width: 767px) {
+     .header-navbar {
+         min-height: 4.5rem;
+         background-position: 24.5rem 0rem;
+     }
+ 
+     .logo-top-gop {
+         display: block;
+     }
+ 
+     .logo-bottom-gop {
+         display: none;
+     }
+ 
+     .navbar-header .row > div:first-child img {
+         height: 50px;
+     }
+ 
+     .navbar-header .row > div:last-child {
+         display: none;
+     }
+ 
+     .logo-footer {
+         margin: 10px auto !important;
+         position: initial !important;
+         text-align: center !important;
+     }
+ }
+ 
+ @media only screen and (max-width : 667px) {
+     .header-navbar {
+         background-image: none;
+     }
+ 
+     .logo-hearder-left {
+         text-align: center !important;
+     }
+ }
+ 
+ @media only screen and (max-width : 320px) {
+ 
+     /*.card-header {
+         margin: 5px 0px 5px 0px !important;
+     }
+ 
+     .form-caption {
+         padding: 0px 0px !important;
+     }
+ 
+         .form-caption::after {
+             right: 0px;
+             top: 0px;
+         }
+ 
+     .line-on-side {
+         margin: 0px !important;
+     }
+ 
+         .line-on-side span {
+             padding: 0px !important;
+         }
+ 
+     .h6, h6 {
+         font-size: 1.5rem !important;
+     }
+ 
+     .font-small-3 {
+         font-size: 1rem !important;
+     }
+ 
+     .card-subtitle {
+         margin-top: .5rem;
+     }
+ 
+     .card-subtitle {
+         margin-bottom: 5px;
+     }
+ 
+     .urdu_Sub_Title_Font {
+         font-size: .9rem !important;
+     }
+ 
+     .btn-min-width {
+         min-width: 6.5rem;
+     }
+ 
+     .btn.btn-icon-left {
+         padding: 0.5rem 0.15rem .5rem 2.6rem;
+     }*/
+ 
+ }
+ 
